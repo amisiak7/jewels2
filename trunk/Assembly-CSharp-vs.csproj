@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{C9C5ACED-AF37-B251-9AC8-2374AADD4A08}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_5_1_1;UNITY_5_1;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_2D_PHYSICS;ENABLE_4_6_FEATURES;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PHYSICS_PHYSX3;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_LICENSE;ENABLE_AUDIOMIXER_SUSPEND;ENABLE_EDITOR_METRICS;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_LOCALIZATION;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_SUBSTANCE;ENABLE_TEXTUREID_MAP;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_MONO;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>X:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>X:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Examples\Scripts\ConsoleBase.cs" />
+     <Compile Include="Assets\Examples\Scripts\GameGroupsConsole.cs" />
+     <Compile Include="Assets\Examples\Scripts\InteractiveConsole.cs" />
+     <Compile Include="Assets\FBHolder.cs" />
+     <Compile Include="Assets\Facebook\Scripts\AndroidFacebook.cs" />
+     <Compile Include="Assets\Facebook\Scripts\AndroidFacebookLoader.cs" />
+     <Compile Include="Assets\Facebook\Scripts\CanvasFacebookLoader.cs" />
+     <Compile Include="Assets\Facebook\Scripts\EditorFacebook.cs" />
+     <Compile Include="Assets\Facebook\Scripts\EditorFacebookAccessToken.cs" />
+     <Compile Include="Assets\Facebook\Scripts\EditorFacebookLoader.cs" />
+     <Compile Include="Assets\Facebook\Scripts\FB.cs" />
+     <Compile Include="Assets\Facebook\Scripts\FBAppRequestsFilterGroup.cs" />
+     <Compile Include="Assets\Facebook\Scripts\FBScreen.cs" />
+     <Compile Include="Assets\Facebook\Scripts\FBSettings.cs" />
+     <Compile Include="Assets\Facebook\Scripts\IOSFacebook.cs" />
+     <Compile Include="Assets\Facebook\Scripts\IOSFacebookLoader.cs" />
+     <Compile Include="Assets\Facebook\Scripts\NativeDialogModes.cs" />
+     <Compile Include="Assets\Facebook\Scripts\Util.cs" />
+     <Compile Include="Assets\Yurowm\DebugPanel\DebugPanel.cs" />
+     <Compile Include="Assets\Yurowm\DebugPanel\DebugPanelField.cs" />
+     <Compile Include="Assets\Yurowm\DebugPanel\DebugPanelViewport.cs" />
+     <Compile Include="Assets\Yurowm\Match-Tree Engine\Scripts\Assistants\AnimationAssistant.cs" />
+     <Compile Include="Assets\Yurowm\Match-Tree Engine\Scripts\Assistants\AudioAssistant.cs" />
+     <Compile Include="Assets\Yurowm\Match-Tree Engine\Scripts\Assistants\BerryStoreAssistant.cs" />
+     <Compile Include="Assets\Yurowm\Match-Tree Engine\Scripts\Assistants\ContentAssistant.cs" />
+     <Compile Include="Assets\Yurowm\Match-Tree Engine\Scripts\Assistants\ControlAssistant.cs" />
+     <Compile Include="Assets\Yurowm\Match-Tree Engine\Scripts\Assistants\FieldAssistant.cs" />
+     <Compile Include="Assets\Yurowm\Match-Tree Engine\Scripts\Assistants\SessionAssistant.cs" />
+     <Compile Include="Assets\Yurowm\Match-Tree Engine\Scripts\Assistants\UIServer.cs" />
+     <Compile Include="Assets\Yurowm\Match-Tree Engine\Scripts\Boosters\BoosterButton.cs" />
+     <Compile Include="Assets\Yurowm\Match-Tree Engine\Scripts\Boosters\BoosterCut.cs" />
+     <Compile Include="Assets\Yurowm\Match-Tree Engine\Scripts\Boosters\BoosterFinger.cs" />
+     <Compile Include="Assets\Yurowm\Match-Tree Engine\Scripts\Boosters\BoosterFreeBombs.cs" />
+     <Compile Include="Assets\Yurowm\Match-Tree Engine\Scripts\Boosters\BoosterList.cs" />
+     <Compile Include="Assets\Yurowm\Match-Tree Engine\Scripts\Boosters\BoosterShake.cs" />
+     <Compile Include="Assets\Yurowm\Match-Tree Engine\Scripts\Boosters\BoosterSwitch.cs" />
+     <Compile Include="Assets\Yurowm\Match-Tree Engine\Scripts\Chip\Chip.cs" />
+     <Compile Include="Assets\Yurowm\Match-Tree Engine\Scripts\Chip\ChipAnimationEvent.cs" />
+     <Compile Include="Assets\Yurowm\Match-Tree Engine\Scripts\Chip\ColorBomb.cs" />
+     <Compile Include="Assets\Yurowm\Match-Tree Engine\Scripts\Chip\CrossBomb.cs" />
+     <Compile Include="Assets\Yurowm\Match-Tree Engine\Scripts\Chip\SimpleBomb.cs" />
+     <Compile Include="Assets\Yurowm\Match-Tree Engine\Scripts\Chip\SimpleChip.cs" />
+     <Compile Include="Assets\Yurowm\Match-Tree Engine\Scripts\Chip\StoneChip.cs" />
+     <Compile Include="Assets\Yurowm\Match-Tree Engine\Scripts\Chip\SugarChip.cs" />
+     <Compile Include="Assets\Yurowm\Match-Tree Engine\Scripts\Effects\Lightning.cs" />
+     <Compile Include="Assets\Yurowm\Match-Tree Engine\Scripts\Effects\ParticleEffect.cs" />
+     <Compile Include="Assets\Yurowm\Match-Tree Engine\Scripts\Effects\ScoreBubble.cs" />
+     <Compile Include="Assets\Yurowm\Match-Tree Engine\Scripts\GamePauseObject.cs" />
+     <Compile Include="Assets\Yurowm\Match-Tree Engine\Scripts\Interface\BerryStore\BerryStoreItems\BSItemCurrencyPack.cs" />
+     <Compile Include="Assets\Yurowm\Match-Tree Engine\Scripts\Interface\BerryStore\BerryStoreItems\BSItemPack.cs" />
+     <Compile Include="Assets\Yurowm\Match-Tree Engine\Scripts\Interface\BerryStore\BerryStorePurchaser.cs" />
+     <Compile Include="Assets\Yurowm\Match-Tree Engine\Scripts\Interface\UI\BackgroundScaler.cs" />
+     <Compile Include="Assets\Yurowm\Match-Tree Engine\Scripts\Interface\UI\BestScoreCounter.cs" />
+     <Compile Include="Assets\Yurowm\Match-Tree Engine\Scripts\Interface\UI\BlockCounter.cs" />
+     <Compile Include="Assets\Yurowm\Match-Tree Engine\Scripts\Interface\UI\CPanel.cs" />
+     <Compile Include="Assets\Yurowm\Match-Tree Engine\Scripts\Interface\UI\ColorTargetBar.cs" />
+     <Compile Include="Assets\Yurowm\Match-Tree Engine\Scripts\Interface\UI\FieldCamera.cs" />
+     <Compile Include="Assets\Yurowm\Match-Tree Engine\Scripts\Interface\UI\ItemCounter.cs" />
+     <Compile Include="Assets\Yurowm\Match-Tree Engine\Scripts\Interface\UI\ItemMask.cs" />
+     <Compile Include="Assets\Yurowm\Match-Tree Engine\Scripts\Interface\UI\JellyCounter.cs" />
+     <Compile Include="Assets\Yurowm\Match-Tree Engine\Scripts\Interface\UI\LevelCounter.cs" />
+     <Compile Include="Assets\Yurowm\Match-Tree Engine\Scripts\Interface\UI\LevelMapOptimizer.cs" />
+     <Compile Include="Assets\Yurowm\Match-Tree Engine\Scripts\Interface\UI\LimitationMask.cs" />
+     <Compile Include="Assets\Yurowm\Match-Tree Engine\Scripts\Interface\UI\ModeMask.cs" />
+     <Compile Include="Assets\Yurowm\Match-Tree Engine\Scripts\Interface\UI\MoveCounter.cs" />
+     <Compile Include="Assets\Yurowm\Match-Tree Engine\Scripts\Interface\UI\MuteIcon.cs" />
+     <Compile Include="Assets\Yurowm\Match-Tree Engine\Scripts\Interface\UI\ScoreBar.cs" />
+     <Compile Include="Assets\Yurowm\Match-Tree Engine\Scripts\Interface\UI\ScoreBarNotch.cs" />
+     <Compile Include="Assets\Yurowm\Match-Tree Engine\Scripts\Interface\UI\ScoreCounter.cs" />
+     <Compile Include="Assets\Yurowm\Match-Tree Engine\Scripts\Interface\UI\ScoreStar.cs" />
+     <Compile Include="Assets\Yurowm\Match-Tree Engine\Scripts\Interface\UI\ScoreStarFromMemory.cs" />
+     <Compile Include="Assets\Yurowm\Match-Tree Engine\Scripts\Interface\UI\SetSortingLayer.cs" />
+     <Compile Include="Assets\Yurowm\Match-Tree Engine\Scripts\Interface\UI\StarLevelButton.cs" />
+     <Compile Include="Assets\Yurowm\Match-Tree Engine\Scripts\Interface\UI\SugarCounter.cs" />
+     <Compile Include="Assets\Yurowm\Match-Tree Engine\Scripts\Interface\UI\TargetDescriptionDisplay.cs" />
+     <Compile Include="Assets\Yurowm\Match-Tree Engine\Scripts\Interface\UI\TargetScoreCounter.cs" />
+     <Compile Include="Assets\Yurowm\Match-Tree Engine\Scripts\Interface\UI\Timer.cs" />
+     <Compile Include="Assets\Yurowm\Match-Tree Engine\Scripts\LevelButton.cs" />
+     <Compile Include="Assets\Yurowm\Match-Tree Engine\Scripts\LevelButtonLocker.cs" />
+     <Compile Include="Assets\Yurowm\Match-Tree Engine\Scripts\MixEffect\BombMixEffect.cs" />
+     <Compile Include="Assets\Yurowm\Match-Tree Engine\Scripts\MixEffect\ColorMixEffect.cs" />
+     <Compile Include="Assets\Yurowm\Match-Tree Engine\Scripts\MixEffect\CrossCrossMixEffect.cs" />
+     <Compile Include="Assets\Yurowm\Match-Tree Engine\Scripts\MixEffect\SimpleCrossMixEffect.cs" />
+     <Compile Include="Assets\Yurowm\Match-Tree Engine\Scripts\MixEffect\SimpleSimpleMixEffect.cs" />
+     <Compile Include="Assets\Yurowm\Match-Tree Engine\Scripts\RandomSprite.cs" />
+     <Compile Include="Assets\Yurowm\Match-Tree Engine\Scripts\Slot\Block.cs" />
+     <Compile Include="Assets\Yurowm\Match-Tree Engine\Scripts\Slot\BlockInterface.cs" />
+     <Compile Include="Assets\Yurowm\Match-Tree Engine\Scripts\Slot\Branch.cs" />
+     <Compile Include="Assets\Yurowm\Match-Tree Engine\Scripts\Slot\Jelly.cs" />
+     <Compile Include="Assets\Yurowm\Match-Tree Engine\Scripts\Slot\Slot.cs" />
+     <Compile Include="Assets\Yurowm\Match-Tree Engine\Scripts\Slot\SlotForChip.cs" />
+     <Compile Include="Assets\Yurowm\Match-Tree Engine\Scripts\Slot\SlotGenerator.cs" />
+     <Compile Include="Assets\Yurowm\Match-Tree Engine\Scripts\Slot\SlotGravity.cs" />
+     <Compile Include="Assets\Yurowm\Match-Tree Engine\Scripts\Slot\SlotTeleport.cs" />
+     <Compile Include="Assets\Yurowm\Match-Tree Engine\Scripts\Slot\Wall.cs" />
+     <Compile Include="Assets\Yurowm\Match-Tree Engine\Scripts\Slot\Weed.cs" />
+     <Compile Include="Assets\Yurowm\Match-Tree Engine\Scripts\Utils.cs" />
+     <Compile Include="Assets\Yurowm\Plugins\Soomla\Core\AndroidImpl\KeyValueStorageAndroid.cs" />
+     <Compile Include="Assets\Yurowm\Plugins\Soomla\Core\AndroidImpl\RewardStorageAndroid.cs" />
+     <Compile Include="Assets\Yurowm\Plugins\Soomla\Core\Config\CoreSettings.cs" />
+     <Compile Include="Assets\Yurowm\Plugins\Soomla\Core\Config\ISoomlaPostBuildTool.cs" />
+     <Compile Include="Assets\Yurowm\Plugins\Soomla\Core\Config\ISoomlaSettings.cs" />
+     <Compile Include="Assets\Yurowm\Plugins\Soomla\Core\Config\ObjectDictionary.cs" />
+     <Compile Include="Assets\Yurowm\Plugins\Soomla\Core\Config\SoomlaEditorScript.cs" />
+     <Compile Include="Assets\Yurowm\Plugins\Soomla\Core\Config\SoomlaPostBuildTools.cs" />
+     <Compile Include="Assets\Yurowm\Plugins\Soomla\Core\Config\UnityDictionary.cs" />
+     <Compile Include="Assets\Yurowm\Plugins\Soomla\Core\Config\android\ISoomlaManifestTools.cs" />
+     <Compile Include="Assets\Yurowm\Plugins\Soomla\Core\Config\android\SoomlaAndroidUtil.cs" />
+     <Compile Include="Assets\Yurowm\Plugins\Soomla\Core\Config\android\SoomlaManifestTools.cs" />
+     <Compile Include="Assets\Yurowm\Plugins\Soomla\Core\CoreEvents.cs" />
+     <Compile Include="Assets\Yurowm\Plugins\Soomla\Core\IOSImpl\KeyValueStorageIOS.cs" />
+     <Compile Include="Assets\Yurowm\Plugins\Soomla\Core\IOSImpl\RewardStorageIOS.cs" />
+     <Compile Include="Assets\Yurowm\Plugins\Soomla\Core\JSONObject.cs" />
+     <Compile Include="Assets\Yurowm\Plugins\Soomla\Core\NullCheckable.cs" />
+     <Compile Include="Assets\Yurowm\Plugins\Soomla\Core\Schedule.cs" />
+     <Compile Include="Assets\Yurowm\Plugins\Soomla\Core\SoomlaEntity.cs" />
+     <Compile Include="Assets\Yurowm\Plugins\Soomla\Core\SoomlaExtensions.cs" />
+     <Compile Include="Assets\Yurowm\Plugins\Soomla\Core\SoomlaUtils.cs" />
+     <Compile Include="Assets\Yurowm\Plugins\Soomla\Core\data\JSONConsts.cs" />
+     <Compile Include="Assets\Yurowm\Plugins\Soomla\Core\data\KeyValueStorage.cs" />
+     <Compile Include="Assets\Yurowm\Plugins\Soomla\Core\data\RewardStorage.cs" />
+     <Compile Include="Assets\Yurowm\Plugins\Soomla\Core\rewards\BadgeReward.cs" />
+     <Compile Include="Assets\Yurowm\Plugins\Soomla\Core\rewards\RandomReward.cs" />
+     <Compile Include="Assets\Yurowm\Plugins\Soomla\Core\rewards\Reward.cs" />
+     <Compile Include="Assets\Yurowm\Plugins\Soomla\Core\rewards\SequenceReward.cs" />
+     <Compile Include="Assets\Yurowm\Plugins\Soomla\Store\AndroidImpl\AndroidJNIHandler.cs" />
+     <Compile Include="Assets\Yurowm\Plugins\Soomla\Store\AndroidImpl\SoomlaStoreAndroid.cs" />
+     <Compile Include="Assets\Yurowm\Plugins\Soomla\Store\AndroidImpl\StoreEventPusherAndroid.cs" />
+     <Compile Include="Assets\Yurowm\Plugins\Soomla\Store\AndroidImpl\StoreInfoAndroid.cs" />
+     <Compile Include="Assets\Yurowm\Plugins\Soomla\Store\AndroidImpl\VirtualCurrencyStorageAndroid.cs" />
+     <Compile Include="Assets\Yurowm\Plugins\Soomla\Store\AndroidImpl\VirtualGoodsStorageAndroid.cs" />
+     <Compile Include="Assets\Yurowm\Plugins\Soomla\Store\Config\StoreManifestTools.cs" />
+     <Compile Include="Assets\Yurowm\Plugins\Soomla\Store\Config\StoreSettings.cs" />
+     <Compile Include="Assets\Yurowm\Plugins\Soomla\Store\IOSImpl\IOS_ErrorCodes.cs" />
+     <Compile Include="Assets\Yurowm\Plugins\Soomla\Store\IOSImpl\SoomlaStoreIOS.cs" />
+     <Compile Include="Assets\Yurowm\Plugins\Soomla\Store\IOSImpl\StoreEventPusherIOS.cs" />
+     <Compile Include="Assets\Yurowm\Plugins\Soomla\Store\IOSImpl\StoreInfoIOS.cs" />
+     <Compile Include="Assets\Yurowm\Plugins\Soomla\Store\IOSImpl\VirtualCurrencyStorageIOS.cs" />
+     <Compile Include="Assets\Yurowm\Plugins\Soomla\Store\IOSImpl\VirtualGoodsStorageIOS.cs" />
+     <Compile Include="Assets\Yurowm\Plugins\Soomla\Store\IStoreAssets.cs" />
+     <Compile Include="Assets\Yurowm\Plugins\Soomla\Store\SoomlaStore.cs" />
+     <Compile Include="Assets\Yurowm\Plugins\Soomla\Store\StoreEvents.cs" />
+     <Compile Include="Assets\Yurowm\Plugins\Soomla\Store\StoreInventory.cs" />
+     <Compile Include="Assets\Yurowm\Plugins\Soomla\Store\data\StoreInfo.cs" />
+     <Compile Include="Assets\Yurowm\Plugins\Soomla\Store\data\StoreJSONConsts.cs" />
+     <Compile Include="Assets\Yurowm\Plugins\Soomla\Store\data\VirtualCurrencyStorage.cs" />
+     <Compile Include="Assets\Yurowm\Plugins\Soomla\Store\data\VirtualGoodsStorage.cs" />
+     <Compile Include="Assets\Yurowm\Plugins\Soomla\Store\data\VirtualItemStorage.cs" />
+     <Compile Include="Assets\Yurowm\Plugins\Soomla\Store\domain\MarketItem.cs" />
+     <Compile Include="Assets\Yurowm\Plugins\Soomla\Store\domain\PurchasableVirtualItem.cs" />
+     <Compile Include="Assets\Yurowm\Plugins\Soomla\Store\domain\VirtualCategory.cs" />
+     <Compile Include="Assets\Yurowm\Plugins\Soomla\Store\domain\VirtualItem.cs" />
+     <Compile Include="Assets\Yurowm\Plugins\Soomla\Store\domain\virtualCurrencies\VirtualCurrency.cs" />
+     <Compile Include="Assets\Yurowm\Plugins\Soomla\Store\domain\virtualCurrencies\VirtualCurrencyPack.cs" />
+     <Compile Include="Assets\Yurowm\Plugins\Soomla\Store\domain\virtualGoods\EquippableVG.cs" />
+     <Compile Include="Assets\Yurowm\Plugins\Soomla\Store\domain\virtualGoods\LifetimeVG.cs" />
+     <Compile Include="Assets\Yurowm\Plugins\Soomla\Store\domain\virtualGoods\SingleUsePackVG.cs" />
+     <Compile Include="Assets\Yurowm\Plugins\Soomla\Store\domain\virtualGoods\SingleUseVG.cs" />
+     <Compile Include="Assets\Yurowm\Plugins\Soomla\Store\domain\virtualGoods\UpgradeVG.cs" />
+     <Compile Include="Assets\Yurowm\Plugins\Soomla\Store\domain\virtualGoods\VirtualGood.cs" />
+     <Compile Include="Assets\Yurowm\Plugins\Soomla\Store\exceptions\InsufficientFundsException.cs" />
+     <Compile Include="Assets\Yurowm\Plugins\Soomla\Store\exceptions\NotEnoughGoodsException.cs" />
+     <Compile Include="Assets\Yurowm\Plugins\Soomla\Store\exceptions\VirtualItemNotFoundException.cs" />
+     <Compile Include="Assets\Yurowm\Plugins\Soomla\Store\purchaseTypes\PurchaseType.cs" />
+     <Compile Include="Assets\Yurowm\Plugins\Soomla\Store\purchaseTypes\PurchaseWithMarket.cs" />
+     <Compile Include="Assets\Yurowm\Plugins\Soomla\Store\purchaseTypes\PurchaseWithVirtualItem.cs" />
+     <Compile Include="Assets\Yurowm\Plugins\Soomla\Store\rewards\VirtualItemReward.cs" />
+     <None Include="Assets\Plugins\Android\facebook\res\drawable\com_facebook_top_background.xml" />
+     <None Include="Assets\Plugins\Android\facebook\proguard-project.txt" />
+     <None Include="Assets\Plugins\Android\facebook\res\layout\com_facebook_usersettingsfragment.xml" />
+     <None Include="Assets\Plugins\Android\facebook\res\values-es\strings.xml" />
+     <None Include="Assets\Plugins\Android\facebook\res\drawable\com_facebook_picker_top_button.xml" />
+     <None Include="Assets\Plugins\Android\facebook\res\values-iw\strings.xml" />
+     <None Include="Assets\Plugins\Android\facebook\res\values\styles.xml" />
+     <None Include="Assets\Plugins\Android\facebook\res\values\strings.xml" />
+     <None Include="Assets\Plugins\Android\facebook\res\layout\com_facebook_picker_title_bar.xml" />
+     <None Include="Assets\Plugins\Android\facebook\res\layout\com_facebook_picker_search_box.xml" />
+     <None Include="Assets\Plugins\Android\facebook\res\layout\com_facebook_placepickerfragment.xml" />
+     <None Include="Assets\Yurowm\Plugins\Android\AndroidManifest.xml" />
+     <None Include="Assets\Plugins\Android\facebook\res\layout\com_facebook_picker_list_section_header.xml" />
+     <None Include="Assets\Plugins\Android\facebook\res\drawable\com_facebook_loginbutton_silver.xml" />
+     <None Include="Assets\Plugins\Android\facebook\res\layout\com_facebook_search_bar_layout.xml" />
+     <None Include="Assets\Plugins\Android\facebook\res\layout\com_facebook_tooltip_bubble.xml" />
+     <None Include="Assets\Plugins\Android\facebook\res\values-ldpi\dimens.xml" />
+     <None Include="Assets\Plugins\Android\facebook\res\drawable\com_facebook_picker_list_selector_background_transition.xml" />
+     <None Include="Assets\Plugins\Android\facebook\res\layout\com_facebook_picker_title_bar_stub.xml" />
+     <None Include="Assets\Plugins\Android\facebook\res\values\drawables.xml" />
+     <None Include="Assets\Plugins\Android\facebook\res\layout\com_facebook_friendpickerfragment.xml" />
+     <None Include="Assets\Plugins\Android\facebook\build.xml" />
+     <None Include="Assets\Plugins\Android\facebook\res\values-hdpi\dimens.xml" />
+     <None Include="Assets\Plugins\Android\facebook\res\layout\com_facebook_picker_checkbox.xml" />
+     <None Include="Assets\Plugins\Android\facebook\res\values-he\strings.xml" />
+     <None Include="Assets\Plugins\Android\facebook\res\values\attrs.xml" />
+     <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
+     <None Include="Assets\Plugins\Android\facebook\res\layout\com_facebook_picker_activity_circle_row.xml" />
+     <None Include="Assets\Plugins\Android\facebook\res\drawable\com_facebook_button_like_selected.xml" />
+     <None Include="Assets\Plugins\Android\facebook\res\values\colors.xml" />
+     <None Include="Assets\Plugins\Android\facebook\res\layout\com_facebook_placepickerfragment_list_row.xml" />
+     <None Include="Assets\Plugins\Android\facebook\res\drawable\com_facebook_picker_item_background.xml" />
+     <None Include="Assets\Plugins\Android\facebook\res\values-mdpi\dimens.xml" />
+     <None Include="Assets\Plugins\Android\facebook\res\drawable\com_facebook_button_check.xml" />
+     <None Include="Assets\Plugins\Android\facebook\res\layout\com_facebook_picker_list_row.xml" />
+     <None Include="Assets\Plugins\Android\facebook\res\layout\com_facebook_login_activity_layout.xml" />
+     <None Include="Assets\Plugins\Android\facebook\res\drawable\com_facebook_button_blue.xml" />
+     <None Include="Assets\Plugins\Android\facebook\res\drawable\com_facebook_button_like.xml" />
+     <None Include="Assets\Plugins\Android\facebook\res\drawable\com_facebook_top_button.xml" />
+     <None Include="Assets\Plugins\Android\facebook\AndroidManifest.xml" />
+     <None Include="Assets\Plugins\Android\facebook\res\drawable\com_facebook_usersettingsfragment_background_gradient.xml" />
+     <None Include="Assets\Plugins\Android\facebook\res\layout\com_facebook_picker_image.xml" />
+     <None Include="Assets\Plugins\Android\facebook\res\values-xhdpi\dimens.xml" />
+     <None Include="Assets\Plugins\Android\facebook\res\drawable\com_facebook_picker_list_selector.xml" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>X:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>X:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Analytics">
+ <HintPath>X:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="IFacebook">
+ <HintPath>X:/Unity/jewels_fruits/trunk/Assets/Facebook/Scripts/IFacebook.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+ <HintPath>X:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
