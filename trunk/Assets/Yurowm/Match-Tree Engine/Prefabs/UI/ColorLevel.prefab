@@ -103,7 +103,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   profile:
-    levelID: 15232
+    levelID: 62354
     level: 1
     width: 5
     height: 9
@@ -115,7 +115,7 @@ MonoBehaviour:
     thirdStarScore: 200
     stonePortion: 0
     target: 3
-    limitation: 1
+    limitation: 0
     moveCount: 20
     duraction: 100
     countOfEachTargetCount: 010000000100000001000000010000000100000001000000
