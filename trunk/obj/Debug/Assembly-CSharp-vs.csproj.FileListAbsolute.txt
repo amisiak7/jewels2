@@ -23,3 +23,7 @@ X:\Unity\jewels_fruits\trunk\Temp\bin\Debug\UnityEngine.Analytics.xml
 X:\Unity\jewels_fruits\trunk\obj\Debug\Assembly-CSharp-vs.csprojResolveAssemblyReference.cache
 X:\Unity\jewels_fruits\trunk\obj\Debug\Assembly-CSharp.dll
 X:\Unity\jewels_fruits\trunk\obj\Debug\Assembly-CSharp.pdb
+X:\Unity\jewels_fruits\trunk\Temp\bin\Debug\Photon3Unity3D.dll
+X:\Unity\jewels_fruits\trunk\Temp\bin\Debug\websocket-sharp.dll
+X:\Unity\jewels_fruits\trunk\Temp\bin\Debug\Assembly-CSharp-firstpass.pdb
+X:\Unity\jewels_fruits\trunk\Temp\bin\Debug\Photon3Unity3D.xml
