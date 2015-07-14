@@ -16,7 +16,6 @@ namespace FBHandler
         {
             tglBtn.GetComponent<Toggle>().onValueChanged.AddListener(ToggleClicked);
             FBHolderReference = GameObject.FindGameObjectWithTag("FBHolder");
-            Debug.Log(FBHolderReference.name);
         }
 
         private void ToggleClicked(bool state)

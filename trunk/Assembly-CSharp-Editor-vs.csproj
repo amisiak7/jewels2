@@ -88,6 +88,7 @@
      <None Include="Assets\Plugins\Android\facebook\res\layout\com_facebook_picker_search_box.xml" />
      <None Include="Assets\Plugins\Android\facebook\res\layout\com_facebook_placepickerfragment.xml" />
      <None Include="Assets\Plugins\Photon3Unity3D.xml" />
+     <None Include="Assets\Plugins\Android\AndroidManifest 1.xml" />
      <None Include="Assets\Plugins\release_history.txt" />
      <None Include="Assets\Yurowm\Plugins\Android\AndroidManifest.xml" />
      <None Include="Assets\Plugins\Android\facebook\res\layout\com_facebook_picker_list_section_header.xml" />
@@ -96,9 +97,12 @@
      <None Include="Assets\Plugins\Android\facebook\res\layout\com_facebook_search_bar_layout.xml" />
      <None Include="Assets\Plugins\Android\facebook\res\layout\com_facebook_tooltip_bubble.xml" />
      <None Include="Assets\Plugins\Android\facebook\res\values-ldpi\dimens.xml" />
+     <None Include="Assets\link.xml" />
      <None Include="Assets\AchievementSystem\Scripts\Shader\ProgressBar.shader" />
      <None Include="Assets\Plugins\Android\facebook\res\drawable\com_facebook_picker_list_selector_background_transition.xml" />
      <None Include="Assets\Plugins\Android\facebook\res\layout\com_facebook_picker_title_bar_stub.xml" />
+     <None Include="Assets\Parse\Parse.Unity.xml" />
+     <None Include="Assets\Parse\README.txt" />
      <None Include="Assets\Plugins\Android\facebook\res\values\drawables.xml" />
      <None Include="Assets\AchievementSystem\Scripts\Shader\Nicetransparent.shader" />
      <None Include="Assets\Plugins\Android\facebook\res\layout\com_facebook_friendpickerfragment.xml" />
@@ -143,6 +147,9 @@
  </Reference>
  <Reference Include="IFacebook">
  <HintPath>X:/Unity/jewels_fruits/trunk/Assets/Facebook/Scripts/IFacebook.dll</HintPath>
+ </Reference>
+ <Reference Include="Parse.Unity">
+ <HintPath>X:/Unity/jewels_fruits/trunk/Assets/Parse/Parse.Unity.dll</HintPath>
  </Reference>
  <Reference Include="Photon3Unity3D">
  <HintPath>X:/Unity/jewels_fruits/trunk/Assets/Plugins/Photon3Unity3D.dll</HintPath>
